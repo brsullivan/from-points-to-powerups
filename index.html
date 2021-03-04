@@ -4,7 +4,7 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-        <title>reveal.js</title>
+        <title>From Points to Power-Ups</title>
 
         <link rel="stylesheet" href="dist/reset.css" />
         <link rel="stylesheet" href="dist/reveal.css" />
@@ -23,8 +23,45 @@
                         <h2>How Gamification Can Level Up Your User Experience</h2>
                     </section>
                     <section data-transition="concave">
-                        <h1>Braelyn Sullivan</h1>
+                        <h1>Speaker</h1>
+                        <h2>Braelyn Sullivan</h2>
                         <img class="profile" data-src="dist/assets/img/headshot.jpeg" alt="Brown-haired female in a white shirt" />
+                    </section>
+                    <section data-transition="concave">
+                        <h1>Assumptions &amp; Expectations</h1>
+                        <ul>
+                            <li class="fragment">Games are universal</li>
+                            <li class="fragment">Games can look very different</li>
+                            <li class="fragment">Everyone plays games</li>
+                        </ul>
+
+                        <aside class="notes">
+                            <p>
+                                Throughout this presentation, I will be making a couple of assumptions about games and the people who play them. By definition, these will always be assumptions because it would be impossible to figure out
+                                how each of the more than 7 billion people on the planet feel about games; however, I want to set up some expectations so that you'll understand why I feel comfortable making these assumptions.
+                            </p>
+
+                            <p>
+                                First, I believe it's safe to assume games are universal because there are examples of games dating back over 5,000 year and spanning across the millenia. We also know games have been found in various
+                                cultures all across the world.
+                            </p>
+
+                            <p>
+                                Second, I think it is important to understand that games can look very different, even while employing the same strategies and techniques. Sudoku, Clue and Call of Duty aren't likely to have many common
+                                characteristics, but each has a set of rules with specific conditions for success.
+                            </p>
+
+                            <p>Finally, because of this wide variety of games and vast history of cultural significanc, I feel confident in assuming everyone enjoys at least one game.</p>
+
+                            <p>Games come in many shapes & sizes:</p>
+                            <ul>
+                                <li>Video Games (console, mobile, multiplayer, singleplayer, online, casual)</li>
+                                <li>Card Games (solitaire, poker)</li>
+                                <li>Group party games (Mafia)</li>
+                                <li>Brain Teasers (sudoku, crossword, SET)</li>
+                                <li>Board Games (Clue, Sorry)</li>
+                            </ul>
+                        </aside>
                     </section>
                 </section>
                 <section data-transition="zoom-in fade-out">
@@ -33,7 +70,7 @@
                         <ul>
                             <li>What is Gamification?</li>
                             <li>The Spectrum of Games</li>
-                            <li>How does Gamification Work?</li>
+                            <li>How Gamification Works</li>
                             <li>Technical Considerations</li>
                             <li>Examples</li>
                             <li>Questions</li>
@@ -44,7 +81,7 @@
                         <ul>
                             <li class="upcoming">What is Gamification?</li>
                             <li>The Spectrum of Games</li>
-                            <li>How does Gamification Work?</li>
+                            <li>How Gamification Works</li>
                             <li>Technical Considerations</li>
                             <li>Examples</li>
                             <li>Questions</li>
@@ -59,31 +96,27 @@
                         <aside class="notes">
                             <ul>
                                 <li>Gamification can be applied outside of tech solutions</li>
-                                <li>
-                                    Games come in many shapes & sizes
-                                    <ul>
-                                        <li>Video Games (console, mobile, multiplayer, singleplayer, online, casual)</li>
-                                        <li>Card Games (solitaire, poker)</li>
-                                        <li>Group party games (Mafia)</li>
-                                        <li>Brain Teasers (sudoku, crossword, SET)</li>
-                                        <li>Board Games (Clue, Sorry)</li>
-                                    </ul>
-                                </li>
-                                <li>While you might not enjoy all of them, it's likely someone enjoys at least one of these</li>
                             </ul>
                         </aside>
                     </section>
                     <section data-transition="concave">
                         <h1>Game Mechanics</h1>
                         <p>Game Mechanics can include:</p>
-                        <ul>
-                            <li>Points</li>
-                            <li>Achivements</li>
-                            <li>Levels</li>
-                            <li>Competition</li>
-                            <li>Power-Ups</li>
-                            <li>Challenges</li>
-                        </ul>
+                        <div class="content-spread">
+                            <div class="r-stack">
+                                <img class="fragment fade-out" data-fragment-index="0" src="dist/assets/img/points.png" width="300" />
+                                <img class="fragment current-visible" data-fragment-index="0" src="dist/assets/img/medal.png" width="300" />
+                                <img class="fragment" src="dist/assets/img/level.png" width="300" />
+                            </div>
+                            <ul>
+                                <li>Points</li>
+                                <li>Achivements</li>
+                                <li>Levels</li>
+                                <li>Competition</li>
+                                <li>Power-Ups</li>
+                                <li>Challenges</li>
+                            </ul>
+                        </div>
                     </section>
                 </section>
                 <section data-transition="zoom-in fade-out">
@@ -92,7 +125,7 @@
                         <ul>
                             <li class="upcoming">What is Gamification?</li>
                             <li>The Spectrum of Games</li>
-                            <li>How does Gamification Work?</li>
+                            <li>How Gamification Works</li>
                             <li>Technical Considerations</li>
                             <li>Examples</li>
                             <li>Questions</li>
@@ -103,7 +136,7 @@
                         <ul>
                             <li>What is Gamification?</li>
                             <li class="upcoming">The Spectrum of Games</li>
-                            <li>How does Gamification Work?</li>
+                            <li>How Gamification Works</li>
                             <li>Technical Considerations</li>
                             <li>Examples</li>
                             <li>Questions</li>
@@ -117,6 +150,12 @@
                     <section data-transition="concave" data-auto-animate="">
                         <h1>Spectrum of Games</h1>
                         <img src="dist/assets/img/spectrum.png" alt="" />
+
+                        <aside class="notes">
+                            <p>Every digital interaction can be placed somewhere on a spectrum from game to non-game.</p>
+                            <p>While this presentation will focus on gamification, serious games and gamification are both important areas for growth in business activities.</p>
+                            <p>Recreation - Education (safe space to fail) - Motivation (real-world implication) - Function</p>
+                        </aside>
                     </section>
                 </section>
                 <section data-transition="zoom-in fade-out">
@@ -125,9 +164,8 @@
                         <ul>
                             <li>What is Gamification?</li>
                             <li class="upcoming">The Spectrum of Games</li>
-                            <li>How does Gamification Work?</li>
+                            <li>How Gamification Works</li>
                             <li>Technical Considerations</li>
-                            <li>Examples</li>
                             <li>Questions</li>
                         </ul>
                     </section>
@@ -138,18 +176,15 @@
                             <li>The Spectrum of Games</li>
                             <li class="upcoming">How does Gamification Work?</li>
                             <li>Technical Considerations</li>
-                            <li>Examples</li>
                             <li>Questions</li>
                         </ul>
                     </section>
                 </section>
                 <section data-transition="zoom-in fade-out">
                     <section data-transition="concave" data-auto-animate>
-                        <h1 data-id="how-title">How Does Gamification Work?</h1>
-                    </section>
-                    <section data-transition="concave" data-auto-animate>
-                        <h1 data-id="how-title" class="title-small">How Does Gamification Work?</h1>
-                        <p>We know games have a psychological impact.</p>
+                        <h1 data-id="how-title">How Gamification Works</h1>
+                        <h2>The Feedback Loop</h2>
+                        <p>Using points to incentivize</p>
                     </section>
                 </section>
                 <section data-transition="zoom-in fade-out">
@@ -160,7 +195,6 @@
                             <li>The Spectrum of Games</li>
                             <li class="upcoming">How does Gamification Work?</li>
                             <li>Technical Considerations</li>
-                            <li>Examples</li>
                             <li>Questions</li>
                         </ul>
                     </section>
@@ -169,9 +203,8 @@
                         <ul>
                             <li>What is Gamification?</li>
                             <li>The Spectrum of Games</li>
-                            <li>How does Gamification Work?</li>
+                            <li>How Gamification Works</li>
                             <li class="upcoming">Technical Considerations</li>
-                            <li>Examples</li>
                             <li>Questions</li>
                         </ul>
                     </section>
@@ -193,9 +226,8 @@
                         <ul>
                             <li>What is Gamification?</li>
                             <li>The Spectrum of Games</li>
-                            <li>How does Gamification Work?</li>
+                            <li>How Gamification Works</li>
                             <li class="upcoming">Technical Considerations</li>
-                            <li>Examples</li>
                             <li>Questions</li>
                         </ul>
                     </section>
@@ -204,50 +236,8 @@
                         <ul>
                             <li>What is Gamification?</li>
                             <li>The Spectrum of Games</li>
-                            <li>How does Gamification Work?</li>
+                            <li>How Gamification Works</li>
                             <li>Technical Considerations</li>
-                            <li class="upcoming">Examples</li>
-                            <li>Questions</li>
-                        </ul>
-                    </section>
-                </section>
-                <section data-transition="zoom-in fade-out">
-                    <section data-transition="concave" data-auto-animate>
-                        <h1 data-id="example-title">Examples</h1>
-                    </section>
-                    <section data-transition="concave" data-auto-animate>
-                        <h1 data-id="example-title">Examples</h1>
-                        <h2 data-id="game-name" class="title-small">Pain Squad</h2>
-                    </section>
-                    <section data-transition="concave" data-auto-animate>
-                        <h1 data-id="example-title">Examples</h1>
-                        <h2 data-id="game-name" class="title-small">Zombies, Run!</h2>
-                    </section>
-                    <section data-transition="concave" data-auto-animate>
-                        <h1 data-id="example-title">Examples</h1>
-                        <h2 data-id="game-name" class="title-small">SAP Roadwarrior</h2>
-                    </section>
-                </section>
-                <section data-transition="zoom-in fade-out">
-                    <section data-auto-animate>
-                        <h1>Agenda</h1>
-                        <ul>
-                            <li>What is Gamification?</li>
-                            <li>The Spectrum of Games</li>
-                            <li>How does Gamification Work?</li>
-                            <li>Technical Considerations</li>
-                            <li class="upcoming">Examples</li>
-                            <li>Questions</li>
-                        </ul>
-                    </section>
-                    <section data-auto-animate>
-                        <h1>Agenda</h1>
-                        <ul>
-                            <li>What is Gamification?</li>
-                            <li>The Spectrum of Games</li>
-                            <li>How does Gamification Work?</li>
-                            <li>Technical Considerations</li>
-                            <li>Examples</li>
                             <li class="upcoming">Questions</li>
                         </ul>
                     </section>
@@ -277,7 +267,9 @@
             // - https://revealjs.com/config/
             Reveal.initialize({
                 hash: true,
-
+                pdfSeparateFragments: false,
+                hideInactiveCursor: true,
+                hideCursorTime: 200,
                 // Learn about plugins: https://revealjs.com/plugins/
                 plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
             });

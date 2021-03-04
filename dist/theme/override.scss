@@ -28,3 +28,8 @@ $background: #002b36;
 img.profile {
     max-width: 400px;
 }
+
+.content-spread {
+    display: flex;
+    flex-flow: row nowrap;
+}
