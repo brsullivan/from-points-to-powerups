@@ -5,6 +5,11 @@
 
 .reveal h2 {
   font-size: 2em;
+  text-transform: capitalize !important;
+}
+
+.reveal .controls button {
+  color: #82b29a;
 }
 
 .title-small {
