@@ -13,6 +13,13 @@ $background: #002b36;
     }
     h2 {
         font-size: 2em;
+        text-transform: capitalize !important;
+    }
+
+    .controls {
+        button {
+            color: #82b29a;
+        }
     }
 }
 
