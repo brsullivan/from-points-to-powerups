@@ -31,6 +31,9 @@ $background: #0d003d;
     font-size: 2em !important;
 }
 
+h2.title-small {
+    font-size: 1.3em !important;
+}
 .upcoming {
     color: $accent;
     font-weight: bold;
@@ -46,6 +49,14 @@ img.profile {
     width: 100%;
     justify-content: space-between;
     align-items: flex-start;
+
+    &.photo-only {
+        align-items: center;
+    }
+
+    img {
+        max-width: 300px;
+    }
 }
 
 .photo-container {
@@ -54,4 +65,9 @@ img.profile {
     align-items: center;
     min-width: 8em;
     justify-content: space-between;
+}
+
+a {
+    color: $accent !important;
+    text-decoration: underline;
 }
