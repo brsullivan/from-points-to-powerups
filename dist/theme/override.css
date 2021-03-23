@@ -21,6 +21,10 @@
   font-size: 2em !important;
 }
 
+h2.title-small {
+  font-size: 1.3em !important;
+}
+
 .upcoming {
   color: #b0d75b;
   font-weight: bold;
@@ -47,6 +51,16 @@ img.profile {
           align-items: flex-start;
 }
 
+.content-spread.photo-only {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.content-spread img {
+  max-width: 300px;
+}
+
 .photo-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -62,5 +76,10 @@ img.profile {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+a {
+  color: #b0d75b !important;
+  text-decoration: underline;
 }
 /*# sourceMappingURL=override.css.map */
