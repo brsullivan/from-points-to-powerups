@@ -3,7 +3,7 @@
  * Author: Achim Staebler
  */
 @import url(./fonts/league-gothic/league-gothic.css);
-@import url(https://fonts.googleapis.com/css?family=Exo:400,700,400italic,700italic);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,400italic,700italic);
 /**
  * Solarized colors by Ethan Schoonover
  */
@@ -27,9 +27,9 @@ section.has-light-background h6 {
  *********************************************/
 :root {
     --background-color: #0d003d;
-    --main-font: Exo, sans-serif;
+    --main-font: Roboto, sans-serif;
     --main-font-size: 40px;
-    --main-color: #93a1a1;
+    --main-color: #f4f1de;
     --block-margin: 20px;
     --heading-margin: 0 0 20px 0;
     --heading-font: League Gothic, Impact, sans-serif;
@@ -56,10 +56,10 @@ section.has-light-background h6 {
 }
 
 .reveal {
-    font-family: "Exo", sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 40px;
     font-weight: normal;
-    color: #93a1a1;
+    color: #f4f1de;
 }
 
 .reveal ::selection {
@@ -91,7 +91,7 @@ section.has-light-background h6 {
 .reveal h6 {
     margin: 0 0 20px 0;
     color: #eee8d5;
-    font-family: "League Gothic", Impact, sans-serif;
+    font-family: 'League Gothic', Impact, sans-serif;
     font-weight: normal;
     line-height: 1.2;
     letter-spacing: normal;
@@ -258,13 +258,13 @@ section.has-light-background h6 {
     border-bottom: 1px solid;
 }
 
-.reveal table th[align="center"],
-.reveal table td[align="center"] {
+.reveal table th[align='center'],
+.reveal table td[align='center'] {
     text-align: center;
 }
 
-.reveal table th[align="right"],
-.reveal table td[align="right"] {
+.reveal table th[align='right'],
+.reveal table td[align='right'] {
     text-align: right;
 }
 
@@ -322,7 +322,7 @@ section.has-light-background h6 {
  * Frame helper
  *********************************************/
 .reveal .r-frame {
-    border: 4px solid #93a1a1;
+    border: 4px solid #f4f1de;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
 

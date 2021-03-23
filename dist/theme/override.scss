@@ -1,24 +1,28 @@
 $light: #f4f1de;
-$dark: #3d405b;
-$highlight: #f2cc8f;
-$lowlight: #82b29a;
-$accent: #e07a5f;
-$background: #002b36;
+$lowlight: #3aafb9;
+$accent: #b0d75b;
+$background: #0d003d;
 
 .reveal {
     h1 {
         font-size: 2.85em;
-        text-shadow: 0 1px 0 $lowlight, 0 2px 0 $lowlight, 0 3px 0 $lowlight, 0 4px 0 $lowlight, 0 5px 0 $lowlight, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2),
+        text-shadow: 0 1px 0 $lowlight, 0 2px 0 $lowlight, 0 3px 0 $lowlight, 0 4px 0 $lowlight,
+            0 5px 0 $lowlight, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
+            0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2),
             0 5px 10px rgba(0, 0, 0, 0.25), 0 20px 20px rgba(0, 0, 0, 0.15);
     }
     h2 {
         font-size: 2em;
         text-transform: capitalize !important;
     }
+    h3 {
+        font-size: 1em;
+        color: $lowlight;
+    }
 
     .controls {
         button {
-            color: #82b29a;
+            color: $lowlight;
         }
     }
 }
@@ -39,4 +43,15 @@ img.profile {
 .content-spread {
     display: flex;
     flex-flow: row nowrap;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.photo-container {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    min-width: 8em;
+    justify-content: space-between;
 }

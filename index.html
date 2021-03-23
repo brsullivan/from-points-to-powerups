@@ -1,16 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>From Points to Power-Ups</title>
-
         <link rel="stylesheet" href="dist/reset.css" />
         <link rel="stylesheet" href="dist/reveal.css" />
         <link rel="stylesheet" href="dist/theme/moon.css" id="theme" />
         <link rel="stylesheet" href="dist/theme/override.css" />
-
         <!-- Theme used for syntax highlighted code -->
         <link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme" />
     </head>
@@ -24,41 +21,62 @@
                             How Gamification Can Level Up<br />
                             Your User Experience
                         </h2>
+                        <h3>A Presentation for Fleurix Lite 2021</h3>
                     </section>
                     <section data-transition="concave">
-                        <h1>Speaker</h1>
-                        <h2>Braelyn Sullivan</h2>
-                        <img class="profile" data-src="dist/assets/img/headshot.jpeg" alt="Brown-haired female in a white shirt" />
+                        <h1>Braelyn Sullivan</h1>
+                        <img
+                            class="profile"
+                            data-src="dist/assets/img/headshot.jpeg"
+                            alt="Brown-haired female in a black and white shirt"
+                        />
                     </section>
                     <section data-transition="concave">
-                        <h1 class="title-small">Assumptions &amp; Expectations</h1>
-                        <ul>
+                        <h1>Games are Universal</h1>
+                        <!-- <ul>
                             <li class="fragment">Games are universal</li>
                             <li class="fragment">Games can look very different</li>
                             <li class="fragment">Everyone plays games</li>
-                        </ul>
+                        </ul> -->
 
                         <aside class="notes">
                             <p>
-                                Throughout this presentation, I will be making a couple of assumptions about games and the people who play them. By definition, these will always be assumptions because it would be impossible to figure out
-                                how each of the more than 7 billion people on the planet feel about games; however, I want to set up some expectations so that you'll understand why I feel comfortable making these assumptions.
+                                Throughout this presentation, I will be making a couple of
+                                assumptions about games and the people who play them. By definition,
+                                these will always be assumptions because it would be impossible to
+                                figure out how each of the more than 7 billion people on the planet
+                                feel about games; however, I want to set up some expectations so
+                                that you'll understand why I feel comfortable making these
+                                assumptions.
                             </p>
 
                             <p>
-                                First, I believe it's safe to assume games are universal because there are examples of games dating back over 5,000 year and spanning across the millenia. We also know games have been found in various
+                                First, I believe it's safe to assume games are universal because
+                                there are examples of games dating back over 5,000 year and spanning
+                                across the millenia. We also know games have been found in various
                                 cultures all across the world.
                             </p>
 
                             <p>
-                                Second, I think it is important to understand that games can look very different, even while employing the same strategies and techniques. Sudoku, Clue and Call of Duty aren't likely to have many common
-                                characteristics, but each has a set of rules with specific conditions for success.
+                                Second, I think it is important to understand that games can look
+                                very different, even while employing the same strategies and
+                                techniques. Sudoku, Clue and Call of Duty aren't likely to have many
+                                common characteristics, but each has a set of rules with specific
+                                conditions for success.
                             </p>
 
-                            <p>Finally, because of this wide variety of games and vast history of cultural significanc, I feel confident in assuming everyone enjoys at least one game.</p>
+                            <p>
+                                Finally, because of this wide variety of games and vast history of
+                                cultural significanc, I feel confident in assuming everyone enjoys
+                                at least one game.
+                            </p>
 
                             <p>Games come in many shapes & sizes:</p>
                             <ul>
-                                <li>Video Games (console, mobile, multiplayer, singleplayer, online, casual)</li>
+                                <li>
+                                    Video Games (console, mobile, multiplayer, singleplayer, online,
+                                    casual)
+                                </li>
                                 <li>Card Games (solitaire, poker)</li>
                                 <li>Group party games (Mafia)</li>
                                 <li>Brain Teasers (sudoku, crossword, SET)</li>
@@ -72,7 +90,6 @@
                         <h1>Agenda</h1>
                         <ul>
                             <li class="upcoming">What is Gamification?</li>
-                            <li>The Spectrum of Games</li>
                             <li>How Gamification Works</li>
                             <li>Technical Considerations</li>
                             <li>Examples</li>
@@ -83,14 +100,20 @@
                 <section data-transition="zoom-in fade-out">
                     <section data-transition="concave">
                         <h1>What is Gamification?</h1>
-                        <p>Gamification is the process of applying game mechanics to any non-game activity.</p>
+                        <p>
+                            Gamification is the process of applying game mechanics to any non-game
+                            activity.
+                        </p>
 
                         <aside class="notes">
                             <ul>
                                 <li>
                                     Gamification can be applied outside of tech solutions
                                     <ul>
-                                        <li>Chore charts to encourage kids to complete their tasks at home</li>
+                                        <li>
+                                            Chore charts to encourage kids to complete their tasks
+                                            at home
+                                        </li>
                                         <li>Customer loyalty points/programs</li>
                                     </ul>
                                 </li>
@@ -99,13 +122,26 @@
                     </section>
                     <section data-transition="concave">
                         <h1>Game Mechanics</h1>
-                        <p>Game Mechanics can include:</p>
+
                         <div class="content-spread">
                             <div class="r-stack">
-                                <img class="fragment fade-out" data-fragment-index="0" src="dist/assets/img/points.png" width="300" />
-                                <img class="fragment current-visible" data-fragment-index="0" src="dist/assets/img/medal.png" width="300" />
-                                <img class="fragment" src="dist/assets/img/level.png" width="300" />
-                                <img class="fragment" src="dist/assets/img/competition.png" width="300" />
+                                <img
+                                    class="fragment fade-out"
+                                    data-fragment-index="0"
+                                    src="dist/assets/img/points.png"
+                                    width="300"
+                                />
+                                <img
+                                    class="fragment current-visible"
+                                    data-fragment-index="0"
+                                    src="dist/assets/img/medal.png"
+                                    width="300"
+                                />
+                                <div class="fragment photo-container">
+                                    <img src="dist/assets/img/cherry.png" />
+                                    <img src="dist/assets/img/lollipop.png" />
+                                    <img src="dist/assets/img/candyGreen.png" />
+                                </div>
                             </div>
                             <ul>
                                 <li>Points</li>
@@ -118,43 +154,24 @@
                             </ul>
                         </div>
                     </section>
-                </section>
-                <section data-transition="zoom-in fade-out">
-                    <section data-auto-animate>
-                        <h1>Agenda</h1>
-                        <ul>
-                            <li class="upcoming">What is Gamification?</li>
-                            <li>The Spectrum of Games</li>
-                            <li>How Gamification Works</li>
-                            <li>Technical Considerations</li>
-                            <li>Examples</li>
-                            <li>Questions</li>
-                        </ul>
-                    </section>
-                    <section data-auto-animate>
-                        <h1>Agenda</h1>
-                        <ul>
-                            <li>What is Gamification?</li>
-                            <li class="upcoming">The Spectrum of Games</li>
-                            <li>How Gamification Works</li>
-                            <li>Technical Considerations</li>
-                            <li>Examples</li>
-                            <li>Questions</li>
-                        </ul>
-                    </section>
-                </section>
-                <section data-transition="zoom-in fade-out">
-                    <section data-transition="concave" data-auto-animate="">
-                        <h1>Spectrum of Games</h1>
-                    </section>
-                    <section data-transition="concave" data-auto-animate="">
-                        <h1>Spectrum of Games</h1>
+                    <section data-transition="concave">
+                        <h1>A Spectrum of Games</h1>
                         <img src="dist/assets/img/spectrum.png" alt="" />
 
                         <aside class="notes">
-                            <p>Every digital interaction can be placed somewhere on a spectrum from game to non-game.</p>
-                            <p>While this presentation will focus on gamification, serious games and gamification are both important areas for growth in business activities.</p>
-                            <p>Recreation - Education (safe space to fail) - Motivation (real-world implication) - Function</p>
+                            <p>
+                                Every digital interaction can be placed somewhere on a spectrum from
+                                game to non-game.
+                            </p>
+                            <p>
+                                While this presentation will focus on gamification, serious games
+                                and gamification are both important areas for growth in business
+                                activities.
+                            </p>
+                            <p>
+                                Recreation - Education (safe space to fail) - Motivation (real-world
+                                implication) - Function
+                            </p>
                         </aside>
                     </section>
                     <section data-transition="concave">
@@ -166,14 +183,28 @@
                         </ul>
 
                         <aside class="notes">
-                            <p>The defining characteristics that separate gamification from the others are:</p>
+                            <p>
+                                The defining characteristics that separate gamification from the
+                                others are:
+                            </p>
                             <ul>
-                                <li>It is not safe to fail. There are real-world consequences and measurable outcomes</li>
-                                <li>The tasks or processes have to (or should) be done anyway. We're not creating tasks for the sake of gamifying them</li>
-                                <li>Those completing the tasks would benefit from additional motivation or boosted engagement</li>
+                                <li>
+                                    It is not safe to fail. There are real-world consequences and
+                                    measurable outcomes
+                                </li>
+                                <li>
+                                    The tasks or processes have to (or should) be done anyway. We're
+                                    not creating tasks for the sake of gamifying them
+                                </li>
+                                <li>
+                                    Those completing the tasks would benefit from additional
+                                    motivation or boosted engagement
+                                </li>
                             </ul>
 
-                            <p>Let's look at an example of gamification to understand how it works.</p>
+                            <p>
+                                Let's look at an example of gamification to understand how it works.
+                            </p>
                         </aside>
                     </section>
                     <section data-transition="concave">
@@ -181,10 +212,24 @@
                         <img src="dist/assets/img/pain-squad.png" width="750" />
 
                         <aside class="notes">
-                            <p>This is an app called Pain Squad. It's an app-based pain diary created for kids with cancer.</p>
-                            <p>Pain history and management are essential pieces of treating childhood cancer so these records are very important, but it can be really difficult to get children to regularly fill out these logs.</p>
-                            <p>A user is prompted to complete reports as if they were a detective investingating a case.</p>
-                            <p>They are rewarded for completing these investigations with badges, leveling up and messages delivered by popular TV police.</p>
+                            <p>
+                                This is an app called Pain Squad, which was created to replace the
+                                standard pain diaries children undergoing treatment for cancer are
+                                asked to complete.
+                            </p>
+                            <p>
+                                Pain history and management are essential pieces of treating
+                                childhood cancer so these records are very important, but it can be
+                                really difficult to get children to regularly fill out these logs.
+                                (Real World Consequences)
+                            </p>
+                            <p>
+                                A user is prompted to complete reports as if they were a detective
+                                investingating a case. They are rewarded for completing these
+                                investigations with badges, leveling up and messages delivered by
+                                popular TV police.(Worst case - a distraction, best case -
+                                motivation :: win-win)
+                            </p>
                         </aside>
                     </section>
                 </section>
@@ -213,25 +258,50 @@
                 <section data-transition="zoom-in fade-out">
                     <section data-transition="concave">
                         <h1>How Gamification Works</h1>
-                        <div class="r-stack">
-                            <div class="fragment fade-out" data-fragment-index="0">
-                                <h2>Psychology of Games</h2>
-                                <ul>
-                                    <li>Feedback Loops</li>
-                                    <li>Progress and Achievement</li>
-                                    <li>Repeatability</li>
-                                </ul>
-                            </div>
+                        <h2>Psychology of Games</h2>
+                        <ul>
+                            <li>Progress and Achievement</li>
+                            <li>Feedback Loops</li>
+                            <li>Motivation &amp; Gamification</li>
+                        </ul>
 
-                            <div class="fragment current-visible" data-fragment-index="0">
-                                <h2>Motiviation &amp; Engagement</h2>
-                                <ul>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                </ul>
-                            </div>
-                        </div>
+                        <aside class="notes">
+                            <ul>
+                                <li>
+                                    Progress just feels good. Achieving a goal actually increases
+                                    our overall happiness and subjective well-being.
+                                </li>
+                                <li>
+                                    When we achieve a goal, these positive feelings reinforce our
+                                    positive behaviors - creating motivation to continue.
+                                </li>
+                                <li>
+                                    The goal of gamification is not addiction. You want to be really
+                                    careful about encouraging or rewarding negative behaviors.
+                                </li>
+                            </ul>
+                        </aside>
+                    </section>
+                    <section data-transition="concave">
+                        <h1>Other Examples</h1>
+                        <ul>
+                            <li>Foursquare</li>
+                            <li>Duolingo</li>
+                        </ul>
+
+                        <aside class="notes">
+                            <ul>
+                                <li>
+                                    Foursquare used gamification to incentivize users to collect
+                                    data - that would have otherwise cost them a tremendous amount
+                                    of money to obtain.
+                                </li>
+                                <li>
+                                    Duolingo directs the user's motivation and engagement to produce
+                                    faster learning.
+                                </li>
+                            </ul>
+                        </aside>
                     </section>
                 </section>
                 <section data-transition="zoom-in fade-out">
@@ -263,53 +333,93 @@
 
                         <aside class="notes">
                             <ul>
-                                <li>Gamification is not a totally new paradigm. No matter your role, you can apply some of the standards and processes you already know well to deliver a great gamification product.</li>
-                                <li>However, there are some specific things that make gamification unique that you should consider to create the best outcome.</li>
+                                <li>
+                                    Gamification is not a totally new paradigm. No matter your role,
+                                    you can apply some of the standards and processes you already
+                                    know well to deliver a great gamification product.
+                                </li>
+                                <li>
+                                    However, there are some specific things that make gamification
+                                    unique that you should consider to create the best outcome.
+                                </li>
                             </ul>
                         </aside>
                     </section>
                     <section data-transition="concave">
                         <h1>Designing Gamification</h1>
-
-                        <ol>
-                            <li>Keep the game elements relevant to the task</li>
-                            <li>Use complexity of tasks to guide the "fun factor"</li>
-                            <li>Account for the learning curve</li>
-                        </ol>
-
+                        <div class="content-spread">
+                            <img
+                                src="dist/assets/img/zombies.png"
+                                width="200"
+                                style="margin-right: 2em"
+                            />
+                            <ol>
+                                <li>Keep the game elements relevant to the task</li>
+                                <li>It doesn't have to be elaborate or difficult</li>
+                                <li>Account for the learning curve</li>
+                            </ol>
+                        </div>
                         <aside class="notes">
                             <p>1:</p>
                             <ul>
-                                <li>You'll want to make sure you keep the context of your application in mind when deciding how to gamify.</li>
-                                <li>Make sure you really understand your users because relevance to their interests can make or break your efforts.</li>
-                                <li>Doesn't mean you can't have fun with it - just keep the context in mind. Quick tasks should have quick stories, save the longer plots for ongoing efforts. *** ADD MORE HERE ***</li>
+                                <li>
+                                    You'll want to make sure you keep the context of your
+                                    application in mind when deciding how to gamify.
+                                </li>
+                                <li>
+                                    Make sure you really understand your users because relevance to
+                                    their interests can make or break your efforts.
+                                </li>
+                                <li>
+                                    Doesn't mean you can't have fun with it - just keep the context
+                                    in mind. Quick tasks should have quick stories, save the longer
+                                    plots for ongoing efforts. *** ADD MORE HERE ***
+                                </li>
                             </ul>
                             <p>2:</p>
                             <ul>
                                 <li>
-                                    You can reap the rewards of gamification without developing an over-the-top, fully animated and silly experience. Particularly if you're gamifying in a corporate context, you don't want to make your users
-                                    think you don't take their jobs seriously.
+                                    You can reap the rewards of gamification without developing an
+                                    over-the-top, fully animated and silly experience. Particularly
+                                    if you're gamifying in a corporate context, you don't want to
+                                    make your users think you don't take their jobs seriously.
                                 </li>
                             </ul>
                             <p>3:</p>
                             <ul>
-                                <li>Gamifying an existing application doesn't mean you can skip the training. While you don't want to change the way a user performs the tasks, you can expect them to immediately understand the rules.</li>
+                                <li>
+                                    Gamifying an existing application doesn't mean you can skip the
+                                    training. While you don't want to change the way a user performs
+                                    the tasks, you can't expect them to immediately understand the
+                                    rules.
+                                </li>
                             </ul>
                         </aside>
                     </section>
                     <section data-transition="concave">
                         <h1>Developing Gamification</h1>
 
-                        <p>The <strong>Good News:</strong> You can use a lot of the same development skills you already have to build gamification into a tool.</p>
+                        <p>
+                            The <strong>Good News:</strong> You can use a lot of the same
+                            development skills you already have to build gamification.
+                        </p>
 
-                        <p>The <strong>Bad News:</strong> Things like page load, performance speed and well-structured code matter much, much more.</p>
+                        <p>
+                            The <strong>Bad News:</strong> Things like page load, performance speed
+                            and well-structured code become much more important.
+                        </p>
                     </section>
                     <section data-transition="concave">
                         <h1>Testing Gamification</h1>
 
-                        <ol>
-                            <li></li>
-                        </ol>
+                        <ul>
+                            <li>Higher reliance on manual testing</li>
+                            <li>People are going to try and cheat the system</li>
+                            <li>
+                                Beyond usability and functionality, you'll also be evaluating
+                                repetability and fatigue
+                            </li>
+                        </ul>
                     </section>
                 </section>
                 <section data-transition="zoom-in fade-out">
@@ -335,16 +445,52 @@
                     </section>
                 </section>
                 <section data-transition="zoom-in fade-out">
-                    <h1>QUESTIONS?</h1>
-                    <!-- <p>
-                        To Contact Me: <br />
-                        <a href="mailto:Braelyn.R.Sullivan3@gmail.com">Email</a> | <a href="https://twitter.com/MagicCrafty">Twitter</a> | <a href="https://www.linkedin.com/in/braelynrsullivan/">LinkedIn</a> |
-                        <a href="https://medium.com/@braelynnn">Medium</a> |
-                        <a href="https://dev.to/brsullivan">DEV</a>
-                    </p> -->
+                    <section>
+                        <h1>QUESTIONS?</h1>
+                    </section>
+                    <section data-transition="concave">
+                        <h1>Thank you!</h1>
+                        <p>
+                            To Contact Me: <br />
+                            <a href="mailto:Braelyn.R.Sullivan3@gmail.com">Email</a> |
+                            <a href="https://twitter.com/MagicCrafty">Twitter</a> |
+                            <a href="https://www.linkedin.com/in/braelynrsullivan/">LinkedIn</a> |
+                            <a href="https://medium.com/@braelynnn">Medium</a> |
+                            <a href="https://dev.to/brsullivan">DEV</a>
+                        </p>
 
-                    <!-- <p>Interested in Gamification? Contact <a href="mailto:kvaughan@captechconsulting.com">Kevin Vaughan</a></p>
-                    <p>Want to Work with CapTech? <a href="https://www.captechconsulting.com/careers/current-openings">Start Here</a></p> -->
+                        <p>
+                            Want to Work with CapTech?
+                            <a href="https://www.captechconsulting.com/careers/current-openings"
+                                >Start Here</a
+                            >
+                        </p>
+                    </section>
+                    <section data-transition="concave">
+                        <h1>Game Development</h1>
+
+                        <h2>JavaScript</h2>
+                        <ul>
+                            <li><a href="https://brm.io/matter-js/">Matter.js</a></li>
+                            <li><a href="https://phaser.io">Phaser</a></li>
+                        </ul>
+                    </section>
+                    <section data-transition="concave">
+                        <h1>Continued Reading</h1>
+
+                        <p>
+                            <a
+                                href="https://www.amazon.com/Actionable-Gamification-Beyond-Points-Leaderboards-ebook/dp/B00WAOGY4U"
+                                >Actionable Gamification</a
+                            >
+                        </p>
+                        <p>
+                            <a
+                                href="https://www.amazon.com/Technically-Wrong-Sexist-Algorithms-Threats/dp/1681688611"
+                                >Technically Wrong</a
+                            >
+                        </p>
+                    </section>
                 </section>
             </div>
         </div>
