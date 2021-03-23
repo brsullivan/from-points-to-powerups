@@ -8,6 +8,8 @@
         <link rel="stylesheet" href="dist/reveal.css" />
         <link rel="stylesheet" href="dist/theme/moon.css" id="theme" />
         <link rel="stylesheet" href="dist/theme/override.css" />
+        <link rel="stylesheet" href="plugin/accessibility/helper.css" />
+
         <!-- Theme used for syntax highlighted code -->
         <link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme" />
     </head>
@@ -85,7 +87,7 @@
                         </aside>
                     </section>
                 </section>
-                <section data-transition="zoom-in fade-out">
+                <!-- <section data-transition="zoom-in fade-out">
                     <section data-transition="concave">
                         <h1>Agenda</h1>
                         <ul>
@@ -96,14 +98,18 @@
                             <li>Questions</li>
                         </ul>
                     </section>
-                </section>
+                </section> -->
                 <section data-transition="zoom-in fade-out">
                     <section data-transition="concave">
                         <h1>What is Gamification?</h1>
-                        <p>
+                        <p class="fragment">
                             Gamification is the process of applying game mechanics to any non-game
                             activity.
                         </p>
+                        <div class="fragment breakdown-animation">
+                            <div>Game Mechanics</div>
+                            <div>Non-Game Activity</div>
+                        </div>
 
                         <aside class="notes">
                             <ul>
@@ -510,6 +516,15 @@
                 hideCursorTime: 200,
                 // Learn about plugins: https://revealjs.com/plugins/
                 plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+                dependencies: [
+                    {
+                        src: 'plugin/accessibility/helper.js',
+                        async: true,
+                        condition: function () {
+                            return !!document.body.classList;
+                        },
+                    },
+                ],
             });
         </script>
     </body>
